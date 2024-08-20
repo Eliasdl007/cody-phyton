@@ -1,0 +1,8 @@
+import os
+os.system("cls || clear" )
+
+#solicitando dados
+numero1= int(input("Digite o numero1"): ))
+Nota2= input("Digite o numeiro2: "))
+
+

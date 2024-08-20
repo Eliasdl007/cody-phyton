@@ -1,0 +1,14 @@
+import os
+os.system("cls|| clear")
+
+# Solicitando dados.
+idade = int(input("Digite sua idade: "))
+# Verificacao
+# TRUE = Verdadeiro
+# Falso = falsa
+if idade < 18:
+      print("Menonoridade. ")
+else:
+    print("maioridade")
+
+print("===FIM===")

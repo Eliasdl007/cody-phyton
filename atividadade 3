@@ -1,0 +1,13 @@
+import os
+os.system("cls || clear" )
+
+# Solicitando dados
+nome= input("Digite seu nome")
+idade= int(input("Digite sua idade"))
+Nota1= float(input("Digite a Nota1: "))
+Nota2= float(input("Digite a Nota2: "))
+Nota3= float(input("Digite a Nota3: "))
+ #Verificacao
+soma = Nota1 + Nota2 + Nota3
+ #Exibicao dados
+
