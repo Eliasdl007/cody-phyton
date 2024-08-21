@@ -1,0 +1,14 @@
+import os
+os.system("cls || clear" )
+
+#Dados dos usario
+login_iserido = input("Digite o login: ")
+senha_iserido = float(input("Digite a senha: "))
+
+#Verificacao
+
+if login_iserido == "Elias" and senha_iserido == 123:
+    print("Bem Vindo")
+
+else:
+    print("Longin ou senha invalidos.")

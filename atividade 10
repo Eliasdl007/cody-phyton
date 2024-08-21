@@ -1,0 +1,32 @@
+import os
+os.system("cls || clear" )
+
+print(""""
+1 - Domigo
+2 - Sengunda
+3 - terca
+4 - quarta
+5 - quinta
+6 - sexta
+7 - sabado      
+  """)
+
+opcao = int(input("Digite uma opcao: "))
+
+match opcao:
+    case 1:
+        print("Domingo (Final de semana)")
+    case 2:
+        print("segunda (Dia Util)")
+    case 3:
+        print("terca (Dia Util)")
+    case 4:
+        print("quarta (Dia Util)")
+    case 5:
+        print("quinta (Dia Util)")
+    case 6:
+        print("sexta (Dia Util)")
+    case 7:
+        print("sabado (Final de semana)")
+    case 8: 
+        pass

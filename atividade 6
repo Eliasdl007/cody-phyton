@@ -1,0 +1,7 @@
+import os
+os.system("cls || clear" )
+
+numeiro = float(input("Digite sua primeiro numeiro: "))
+numero2= float(input("Digite o segundo numeiro") )
+
+print
