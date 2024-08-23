@@ -1,0 +1,45 @@
+import os
+os.system("cls || clear" )
+
+mes = int(input("Digite uma opcao: "))
+
+print(""""
+1 - janeiro
+2 - feveiro
+3 - marco     
+3 - abril
+5 - maio
+6 - junho
+7 - julho
+8 - agosto
+9 - setembro
+10 - outubro
+11 - novembro
+12 - dezembro   
+  """)
+
+match mes:
+  case 1:
+    print("janeiro")
+  case 2:
+    print("feveiro")
+  case 3:
+    print("marco")
+  case 4:
+    print("abril")
+  case 5:
+    print("maio")
+  case 6:
+    print("junho")
+  case 7:
+    print("julho")
+  case 8:
+    print("agosto")
+  case 9:
+    print("setembro")
+  case 10:
+    print("outubro")
+  case 11:
+    print("novembro")
+  case 12:
+    print("dezembro")

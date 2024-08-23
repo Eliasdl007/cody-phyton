@@ -1,0 +1,8 @@
+import os
+os.system("cls || clear" )
+
+numero=float(input("Digite o numero: "))
+
+print("\n Tabusbs de multiplicacao ")
+for i in range(1,11):
+    print(f"{numero}*{i}={numero*i}")

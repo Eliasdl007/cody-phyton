@@ -1,0 +1,11 @@
+import os
+os.system("cls || clear" )
+
+
+#Solicitando dados
+print("""
+1- Pagamento a vista
+2- Pagamento a prazo
+     """)
+
+opcao = int(input("Digite o numeiro que na opcao: "))

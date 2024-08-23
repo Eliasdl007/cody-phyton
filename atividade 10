@@ -10,8 +10,8 @@ print(""""
 6 - sexta
 7 - sabado      
   """)
-
 opcao = int(input("Digite uma opcao: "))
+
 
 match opcao:
     case 1:
