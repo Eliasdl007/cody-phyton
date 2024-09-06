@@ -1,0 +1,27 @@
+"""
+Crie um programa que solicite ao usuário seu login e uma senha.
+O programa deve continuar pedindo o login e a senha até que ambos estejam corretos.
+O programa deve solicitar o login e senha apenas três vezes. Caso ultrapasse o número de tentativas, o programa deve ser finalizado
+"""
+import os
+os.system("cls || clear" )
+
+login_salvo = "Marta"
+senha_salvo = "123"
+contador = 0
+
+while True:
+    login = input("Digite seu login: ")
+    senha = input("Digite seu senha: ")
+    contador += 1
+
+    if login_salvo == login and senha_salvo == senha:
+        print ("Bem-Vindo")
+        break
+    else:
+        print("login ou senha invalido")
+        print(f"Tentativa: {contador} \n")
+        if contador == 3:
+            break
+
+print("=== FIM ===")
