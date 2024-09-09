@@ -1,0 +1,11 @@
+import os
+os.system("cls || clear" )
+
+def calcule_imc(peso, altura):
+    return peso / (altura**2)
+
+
+def classificacao_imc(imc):
+    if  imc < 18. 5:
+        return
+eli

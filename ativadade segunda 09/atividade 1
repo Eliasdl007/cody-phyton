@@ -1,0 +1,26 @@
+import os
+os.system("cls || clear" )
+
+primeira_nota = float(input("digite a primeira nota: "))
+segunda_nota = float(input("digite a segunda nota: "))
+
+def  calcular_media(primeira_nota, segunda_nota):
+    soma = primeira_nota + segunda_nota
+    media = soma / 2
+    return media
+
+def verifacar_resultado(media):
+    if media >= 7:
+        return "Aprovado"
+    else:
+        return "Reprovado"
+
+primeira_nota= float(input("Digite a primeira nota: "))
+segunda_nota= float(input("Digite a segunda nota: "))
+
+media = calcular_resultado(primeira_nota, segunda_nota)
+resultado = verifacar_resultado(media)
+
+print("=== Resultado ===")
+print(f"Media: {media}")
+print(f"Resultado: {resultado}")

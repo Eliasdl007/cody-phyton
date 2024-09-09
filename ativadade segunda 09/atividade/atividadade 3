@@ -10,4 +10,3 @@ Nota3= float(input("Digite a Nota3: "))
  #Verificacao
 soma = Nota1 + Nota2 + Nota3
  #Exibicao dados
-

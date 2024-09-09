@@ -1,0 +1,29 @@
+"""Escreva um algoritmo que leia três notas de um aluno. 
+Caso seja menor que 0 ou maior que 10, mostre a pergunta novamente.
+Após receber as notas dentro dos parâmetros acima, calcule 
+a média e verifique se o aluno está aprovado, recuperação ou 
+reprovado considerando os seguintes critérios:
+Se a média for a partir de 7, aprovado;
+Se a média for entre 5 e 6,9, o aluno está em recuperação;
+Caso seja menor que 5, o aluno está reprovado."""
+
+
+
+for i in range(Quantidade_notas):
+    while True:
+        nota = float(input(f"Digite {i+1} notas: "))
+
+        if nota < 0 or nota > 10:
+            print("Nota invalida! \nDigite novamente...")
+        else:
+            # soma = soma + nota
+            soma += nota
+            break
+media = soma / Quantidade_notas
+
+if media >= 7:
+    print("Aprovado")
+elif media >= 5:
+    print("Recuperacao.")
+else:
+    print("Reprovado. ")

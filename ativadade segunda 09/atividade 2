@@ -1,0 +1,20 @@
+import os
+os.system("cls || clear" )
+
+ano_nacimento = int(input("digite ano de nacimento"))
+
+idade + calcular_idade_ano_nascimento(ano_nacimento)
+
+ano_nacimento = in
+
+
+
+
+
+
+)
+
+
+
+
+

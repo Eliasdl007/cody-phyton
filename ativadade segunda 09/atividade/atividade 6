@@ -1,4 +1,4 @@
-import os
+,33import os
 os.system("cls || clear" )
 
 numeiro = float(input("Digite sua primeiro numeiro: "))

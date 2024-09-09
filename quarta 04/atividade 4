@@ -1,0 +1,22 @@
+("""Crie uma função que receba 2 números e usando uma função, 
+mostre uma mensagem com a média destes dois números informados
+ """)
+
+
+import os
+
+os.system("cls || clear" )
+
+def somar(n1, n2):
+    soma = n1 + n2
+    media= (n1 + n2) /2
+    return resultado
+
+primeiro_numeiro = int(input("Digite o primeiro numeiro: "))
+segundo_numeiro = int(input("Digite o segundo numeiro: "))
+
+media = calcular_media(primeiro_numeiro, segundo_numeiro)
+
+print(f"Media: {media} ")
+
+
