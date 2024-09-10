@@ -1,0 +1,25 @@
+import os
+
+os.system("cls || clear" )
+
+
+vetor = []
+
+
+print("Digite 10 números reais:")
+for i in range(10):
+    numero = float(input(f"Número {i + 1}: "))
+    vetor.append(numero)
+
+quantidade_negativos = 0
+soma_positivos = 0
+
+for numero in vetor:
+    if numero < 0:
+        quantidade_negativos += 1
+    else:
+        soma_positivos += numero
+
+# Exibe os resultados
+print(f"Quantidade de números negativos: {quantidade_negativos}")
+print(f"Soma dos números positivos: {soma_positivos:.2f}")

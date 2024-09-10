@@ -1,0 +1,30 @@
+import os
+
+os.system("cls || clear" )
+
+lista_notas = []
+soma = 0
+quantindade_notas = 4
+
+for i in range(quantindade_notas):
+    nota = float(input("Digite uma nota:"))
+    lista_notas.append(nota)
+
+    soma = sum(lista_notas)
+    media = soma / quantindade_notas
+
+    
+
+print("\n=== Exibindo resultados ===")
+for nota in lista_notas:
+    print(f"Nota: {nota}")
+
+print(f"Media: {media}")
+
+if media >= 7:
+    print("Aprovado guerreiro")
+elif media >= 5:
+    print("Recuperacao")
+else:
+    print("Reprovado")
+    
