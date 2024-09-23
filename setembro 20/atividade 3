@@ -1,0 +1,56 @@
+
+import os
+os.system("cls || clear" )
+
+total_numeros= 0
+quantidade_numeros= 5
+
+def ler_numeros(quantidade_numeros):
+    for i in range(quantidade_numeros):
+        numero = int(input(f"Digite o {i + 1}º número inteiro: "))
+
+        if numero % 2 == 0:
+            pares += 1
+        else:
+            impares += 1
+
+        if numero > 0:
+            positivos += 1
+        elif numero < 0:
+            negativos += 1
+
+
+
+    print(f"Quantidade de números pares: {pares}")
+    print(f"Quantidade de números ímpares: {impares}")
+    print(f"Quantidade de números positivos: {positivos}")
+    print(f"Quantidade de números negativos: {negativos}")
+    print(f"Total de números inseridos: {total_numeros}")
+
+def contar_numeros(numero):
+    numero_menor = 0
+    numero_maior = 0
+    positivos = 0
+    negativos = 0
+
+    for i in range(numero):
+        num = int(input(f"Digite o {i + 1}º número: "))
+
+        if num > 1:
+            numero_maior += 1
+        else:
+            numero_menor += 1
+
+        if num > 0:
+            positivos += 1
+        elif num < 0:
+            negativos += 1
+
+    print(f"Números maiores que 1: {numero_maior}")
+    print(f"Números menores ou iguais a 1: {numero_menor}")
+    print(f"Números positivos: {positivos}")
+    print(f"Números negativos: {negativos}")
+    print(f"Total de números inseridos: {numero}")
+
+# Chamada da função
+contar_numeros(5)

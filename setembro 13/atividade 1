@@ -1,0 +1,15 @@
+import os
+os.system("cls || clear" )
+
+quantidade_numeros = 5
+lista_de_numeros = []
+
+for i in range (5):
+    valor=float(input(f"Digite o {i+1} numeiro"))
+    if valor < 0:
+        valor = 0
+    lista_de_numeros.append(valor)
+
+print("Valores armazenados no vetor")
+for cada_numeiro in lista_de_numeros:
+    print(cada_numeiro)

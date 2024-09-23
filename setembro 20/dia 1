@@ -1,0 +1,27 @@
+import os
+os.system("cls || clear" )
+
+pares = 0
+impares = 0
+positivo = 0
+negativos = 0
+total_numeiros = 5
+
+for i in range(total_numeiros):
+    numeiro = int(input(f"Digite o {1 + i} numeiro inteiro: "))
+
+    if numeiro % 2 == 0:
+        pares += 1
+    else:
+        impares += 1
+
+    if numeiro > 0:
+        positivo += 1
+    elif numeiro < 0:
+        negativos += 1
+
+print(f"Quantidade de numeiros pares: {pares}")
+print(f"Quantidade de numeiros impares: {impares}")
+print(f"Quantidade de numeiros positivos: {positivo}")
+print(f"Quantidade de numeiros negativos: {negativos}")
+print(f"Total de numeiros inserido: {total_numeiros}")
