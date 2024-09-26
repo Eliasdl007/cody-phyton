@@ -1,0 +1,8 @@
+ELIAS, 20
+LUCAS, 20
+DUDU, 20
+CAUA, 19
+elias, 20
+lucas, 20
+elias, 20
+lucas, 20
